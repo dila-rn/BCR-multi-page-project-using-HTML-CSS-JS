@@ -7,7 +7,7 @@ const static = require("node-static");
 const PUBLIC_DIR = path.join(__dirname, "../public");
 const fileStatic = new static.Server(PUBLIC_DIR);
 
-const { PORT = 8000 } = process.env;
+const { PORT = 8080} = process.env;
 
 function htmlReaderFile(htmlFileName) {
     const htmlFilePath = path.join(PUBLIC_DIR, htmlFileName);

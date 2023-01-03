@@ -8,10 +8,9 @@ class App {
     this.dateInput = document.getElementById("tanggal-booking");
     this.timeInput = document.getElementById("waktu-booking");
     this.passengerInput = document.getElementById("jumlah-penumpang");
-
   }
 
-  async init() {
+  init = async () => {
     await this.load();
 
     // Register click listener
@@ -63,7 +62,7 @@ class App {
     event.preventDefault();
   }
 
-  async load() {
+  load = async () => {
     const cars = await Binar.listCars();
     Car.init(cars);
   }
