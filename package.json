@@ -1,0 +1,25 @@
+{
+  "name": "bcr-project",
+  "version": "1.0.0",
+  "description": "This project is the result of learning how to make multi-page website using HTML, CSS, and a little Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "author": "Dila Rizvina N",
+  "license": "ISC",
+  "dependencies": {
+    "node-modules": "^1.0.1",
+    "node-static": "^0.7.11",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dila-rn/BCR-multi-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dila-rn/BCR-multi-page/issues"
+  },
+  "homepage": "https://github.com/dila-rn/BCR-multi-page#readme"
+}
