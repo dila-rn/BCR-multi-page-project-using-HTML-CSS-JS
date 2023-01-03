@@ -57,7 +57,7 @@
 }
 
 .ul {
-    list-style-image: url("../assets/img/list-bullet.svg");
+    list-style-image: url("../img/list-bullet.svg");
 }
 
 .cta-title {
@@ -99,11 +99,11 @@
   background: none;
   padding: 16px 16px;
   display: inline-block;
-  background-image: url("../assets/img/icon_left-button.png");
+  background-image: url("../img/icon_left-button.png");
 }
 
 .left-button:hover{
-    background-image: url("../assets/img/icon_left-button-active.png");
+    background-image: url("../img/icon_left-button-active.png");
 }
 
 .right-button {
@@ -111,11 +111,11 @@
     background: none;
     padding: 16px 16px;
     display: inline-block;
-    background-image: url("../assets/img/icon_right-button.png");
+    background-image: url("../img/icon_right-button.png");
 }
   
 .right-button:hover{
-    background-image: url("../assets/img/icon_right-button-active.png");
+    background-image: url("../img/icon_right-button-active.png");
 }
 
 .hero-img {
